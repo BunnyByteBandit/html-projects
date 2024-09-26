@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forward Fitness Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forward Fitness Club</h1>
+    <p>Home | About Us | Classes | Nutrition | Contact Us</p>
+    <p>Welcome to Forward Fitness Club. Our mission is to help our clients meet their fitness and nutrition goals.</p>
+    <p>If you have struggled with geetting healthy and need mottivation and reasources to make a healthy lifestyle change, contact us today. Our facilty includes state of the art equiment,convenient group training classes and nutrition tips and infromation to keep to healthy</p>
+    <p>We provide a free, one-week membership to experience the benefits of our equiment and facility. This one-week trail gives you complete, training classes and nutrition planing. Contact us today to start your free trail!</p>
+    <p>&copy; 2021 All Rights Reserved.</p>
+    <p>forwardfitness@club.net</p>
+</body>
+</html>
