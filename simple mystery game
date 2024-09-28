@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Door Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        .button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mystery Door Game</h1>
+    <h2>Choose a door:</h2>
+    <button class="button" onclick="choose('left')">Left Door</button>
+    <button class="button" onclick="choose('right')">Right Door</button>
+
+    <div id="result"></div>
+
+    <script>
+        function choose(door) {
+            if (door == 'left') {
+                document.getElementById("result").innerHTML = "You found the treasure; great work";
+            } else {
+                document.getElementById("result").innerHTML = "Oh no; there is nothing here! 😱";
+            }
+        }
+    </script>
+</body>
+</html>
